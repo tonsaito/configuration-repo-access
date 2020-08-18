@@ -1,11 +1,11 @@
 server:
-    port: 6000
+    port: 6100
     error:
         include-stacktrace: never
 
 spring:
     application:
-      name: client-api
+      name: door-api
     cloud:
         consul:
         host: localhost
