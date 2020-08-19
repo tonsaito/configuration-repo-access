@@ -1,0 +1,13 @@
+server:
+    port: 6300
+    error:
+        include-stacktrace: never
+
+spring:
+    application:
+      name: access-consumer
+    cloud:
+        consul:
+        host: localhost
+        port: 8500
+        failFast: false
